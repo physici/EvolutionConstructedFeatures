@@ -1,4 +1,4 @@
-# Evolution Constructed Features
+# Evolution Constructed Features / Genetic algorithm for image classification
 This repo provides an image classification algorithm based on a genetic algorithm for feature optimization and a RandomForestClassifiers-based ensempble classifier (adaboost) for prediction.
 
 The initial genetic algorithm for image classification has been described in Lillywhite, et al.: http://dx.doi.org/10.1016/j.patcog.2013.06.002. The repo closely follows the proposed algorithm with some additional image processing kernels. 
