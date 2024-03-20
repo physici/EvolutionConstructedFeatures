@@ -11,7 +11,7 @@ The repo is managed with poetry. To install the environment run
 from the root directory.
 
 ## Usage
-To use the algorithm a library of images is required as well as a csv-file containing the labels and paths for each image. See the sample folder for more information. 
+To use the algorithm a library of images is required as well as a csv-file containing the labels and paths for each image. See `classification.csv` for more information. 
 
 There are two ways of training the classification model.
 - Interactive: Load `main.py` as module and create an instance of the `EvoFeatures`-class. Call `load_data` and provide a path to the directory where the csv-file is located. Afterwards call `fit` and provide and output-directory.
