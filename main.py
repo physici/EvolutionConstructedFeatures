@@ -34,7 +34,6 @@ from skimage.transform import rescale
 
 
 milestones = 5
-# root = Path(r"C:\Users\rainer.jacob\Downloads\crack_segmentation_dataset")
 verbose = True
 
 
@@ -872,7 +871,7 @@ if __name__ == "__main__":
     )
 
     mymodel.load_data(
-        path_to_data=Path(r"W:\hard_ends\hdr"),
+        path_to_data=Path(r"."),
         number_images=40,
         train_test_fraction=0.2,
     )
