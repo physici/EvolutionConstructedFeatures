@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "eco-features"
-version = "0.1.0"
+version = "1.0"
 description = "ML test to develop evolution constructed features"
-authors = ["rainer.jacob <rainer.jacob@uster.com>"]
+authors = ["physici"]
 readme = "README.md"
 packages = [{include = "eco_features"}]
 
